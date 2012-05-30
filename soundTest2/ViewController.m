@@ -2,22 +2,29 @@
 //  ViewController.m
 //  soundTest2
 //
-//  Created by 籠島 啓介 on 12/05/28.
+//  Created by Ca5 on 12/05/28.
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
 #import "ViewController.h"
+#import <AudioToolbox/AudioQueue.h>
+#import <AudioToolbox/AudioFile.h>
 
-@interface ViewController ()
+#define AUDIO_BUFFER_SECONDS 0.03
+
+@interface ViewController (private)
 
 @end
+
+
+
 
 @implementation ViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    _AQSoundPlayer = [ [ AudioQueueSoundPlayer alloc ] initWithFileName:@"amen001" type:@"wav"]; 
 }
 
 - (void)viewDidUnload
@@ -33,6 +40,22 @@
     } else {
         return YES;
     }
+}
+
+- (IBAction)playSound:(id)sender
+{
+    [_AQSoundPlayer play];
+}
+
+- (IBAction)stopSound:(id)sender
+{
+    [_AQSoundPlayer stop];
+}    
+
+- (void)dealloc
+{
+    [_AQSoundPlayer release];
+    [super dealloc];
 }
 
 @end

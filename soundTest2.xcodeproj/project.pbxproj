@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A21A8871574974C002DDAAD /* AudioQueueSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8861574974C002DDAAD /* AudioQueueSoundPlayer.m */; };
 		6A56EDD1157363ED00944608 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A56EDD0157363ED00944608 /* UIKit.framework */; };
 		6A56EDD3157363ED00944608 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A56EDD2157363ED00944608 /* Foundation.framework */; };
 		6A56EDD5157363ED00944608 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A56EDD4157363ED00944608 /* CoreGraphics.framework */; };
@@ -16,23 +17,29 @@
 		6A56EDE4157363ED00944608 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A56EDE2157363ED00944608 /* MainStoryboard_iPhone.storyboard */; };
 		6A56EDE7157363ED00944608 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A56EDE5157363ED00944608 /* MainStoryboard_iPad.storyboard */; };
 		6A56EDEA157363ED00944608 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A56EDE9157363ED00944608 /* ViewController.m */; };
+		6A56EDF11573664000944608 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A56EDF01573664000944608 /* AudioToolbox.framework */; };
+		6A56EDFC1573751C00944608 /* amen001.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A56EDFB1573751C00944608 /* amen001.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A21A8851574974C002DDAAD /* AudioQueueSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueueSoundPlayer.h; sourceTree = "<group>"; };
+		6A21A8861574974C002DDAAD /* AudioQueueSoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueueSoundPlayer.m; sourceTree = "<group>"; };
 		6A56EDCC157363ED00944608 /* soundTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A56EDD0157363ED00944608 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6A56EDD2157363ED00944608 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A56EDD4157363ED00944608 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6A56EDD8157363ED00944608 /* soundTest2-Info.plist */ = {isa = PBXFileReference; path = "soundTest2-Info.plist"; sourceTree = "<group>"; };
+		6A56EDD8157363ED00944608 /* soundTest2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "soundTest2-Info.plist"; sourceTree = "<group>"; };
 		6A56EDDA157363ED00944608 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A56EDDC157363ED00944608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6A56EDDE157363ED00944608 /* soundTest2-Prefix.pch */ = {isa = PBXFileReference; path = "soundTest2-Prefix.pch"; sourceTree = "<group>"; };
-		6A56EDDF157363ED00944608 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A56EDDE157363ED00944608 /* soundTest2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "soundTest2-Prefix.pch"; sourceTree = "<group>"; };
+		6A56EDDF157363ED00944608 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A56EDE0157363ED00944608 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6A56EDE3157363ED00944608 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		6A56EDE6157363ED00944608 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		6A56EDE8157363ED00944608 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6A56EDE8157363ED00944608 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6A56EDE9157363ED00944608 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A56EDF01573664000944608 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6A56EDFB1573751C00944608 /* amen001.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = amen001.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A56EDF11573664000944608 /* AudioToolbox.framework in Frameworks */,
 				6A56EDD1157363ED00944608 /* UIKit.framework in Frameworks */,
 				6A56EDD3157363ED00944608 /* Foundation.framework in Frameworks */,
 				6A56EDD5157363ED00944608 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +60,8 @@
 		6A56EDC1157363ED00944608 = {
 			isa = PBXGroup;
 			children = (
+				6A56EDFB1573751C00944608 /* amen001.wav */,
+				6A56EDF01573664000944608 /* AudioToolbox.framework */,
 				6A56EDD6157363ED00944608 /* soundTest2 */,
 				6A56EDCF157363ED00944608 /* Frameworks */,
 				6A56EDCD157363ED00944608 /* Products */,
@@ -83,9 +93,11 @@
 				6A56EDE0157363ED00944608 /* AppDelegate.m */,
 				6A56EDE2157363ED00944608 /* MainStoryboard_iPhone.storyboard */,
 				6A56EDE5157363ED00944608 /* MainStoryboard_iPad.storyboard */,
-				6A56EDE8157363ED00944608 /* ViewController.h */,
 				6A56EDE9157363ED00944608 /* ViewController.m */,
+				6A56EDE8157363ED00944608 /* ViewController.h */,
 				6A56EDD7157363ED00944608 /* Supporting Files */,
+				6A21A8851574974C002DDAAD /* AudioQueueSoundPlayer.h */,
+				6A21A8861574974C002DDAAD /* AudioQueueSoundPlayer.m */,
 			);
 			path = soundTest2;
 			sourceTree = "<group>";
@@ -154,6 +166,7 @@
 				6A56EDDB157363ED00944608 /* InfoPlist.strings in Resources */,
 				6A56EDE4157363ED00944608 /* MainStoryboard_iPhone.storyboard in Resources */,
 				6A56EDE7157363ED00944608 /* MainStoryboard_iPad.storyboard in Resources */,
+				6A56EDFC1573751C00944608 /* amen001.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +180,7 @@
 				6A56EDDD157363ED00944608 /* main.m in Sources */,
 				6A56EDE1157363ED00944608 /* AppDelegate.m in Sources */,
 				6A56EDEA157363ED00944608 /* ViewController.m in Sources */,
+				6A21A8871574974C002DDAAD /* AudioQueueSoundPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +219,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Keisuke Kagoshima (5YG72F2Y6S)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -220,6 +235,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "9D22A5DD-9DBC-4EC1-8397-5D4B617E2370";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -230,6 +246,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Keisuke Kagoshima (5YG72F2Y6S)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -239,6 +256,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "9D22A5DD-9DBC-4EC1-8397-5D4B617E2370";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -286,6 +304,7 @@
 				6A56EDEF157363ED00944608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
